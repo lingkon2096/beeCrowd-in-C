@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+   int x,y;
+   float price[5],bill;
+   price[0]=4.00;
+   price[1]=4.50;
+   price[2]=5.00;
+   price[3]=2.00;
+   price[4]=1.50;
+   scanf("%d%d",&x,&y);
+    bill=y*price[x-1];
+   printf("Total: R$ %.2f\n",bill);
+
+ 
+    return 0;
+}
